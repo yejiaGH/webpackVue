@@ -3,6 +3,7 @@
 		<div>App Vue</div>
 		<Home></Home>
 		<Navs></Navs>
+		<yj-button>useButton</yj-button>
 	</div>	
 </template>
 <style>
@@ -17,6 +18,9 @@
 		components: {
 			Home,
 			Navs
+		},
+		mounted () {
+			this.$http.get('/hello');
 		}
 	}
 </script>
