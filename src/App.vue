@@ -2,6 +2,7 @@
 	<div>
 		<div>App Vue</div>
 		<Home></Home>
+		<Navs></Navs>
 	</div>	
 </template>
 <style>
@@ -11,9 +12,11 @@
 </style>
 <script>
 	import Home from './components/Home.vue';
+	import Navs from './components/Navs.vue';
 	export default {
 		components: {
-			Home
+			Home,
+			Navs
 		}
 	}
 </script>
