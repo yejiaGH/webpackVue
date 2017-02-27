@@ -1,8 +1,15 @@
 <template>
-	<div>首页</div>
-</template
-<style>
-
+	<div>{{msg}}
+		<h1>Welcome use stylus</h1>
+	</div>
+</template>
+<style scoped lang="stylus" rel="stylesheet/stylus">
+	div {
+		background: blue;
+	}
+	div
+		h1
+			background green
 </style>
 <script>
 	export default {
